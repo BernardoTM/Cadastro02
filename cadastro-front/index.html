@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.css"/>
+
+    
+</head>
+<body>
+    <header>
+        <div class="container" id="new-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a class="navbar-brand">
+                    <img id="logo" src="img/cadastro.png" alt="Cadastro"> Usuarios
+                </a>
+                <button class="navbar-toggler" type="button" data-target="#navbar-links" aria-controls="navbar-links"
+                aria-expanded="false" aria-label="tuggle navigation">
+                <samp class="navbar-toggler-icon"></samp>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                <div class="navbar-nav">
+                    <a href="cadastra.html" class="nav-item nav-link" id="cadastra">Cadastra</a>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </header>
+    <p>.</p>
+    <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Senha</th>
+                <th>Nome</th>
+                <th>UserName</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="tabela-usuarios">
+        </tbody>
+      </table>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
